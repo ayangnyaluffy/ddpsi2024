@@ -1,6 +1,7 @@
-kendaraan = ["mio", "motor", "200cc", "hitam", "roda 2"]
-kendaraan.append("20.000.000")
-kendaraan.append("matic")
-print(kendaraan)
-kendaraan.insert(2, "yamaha")
-print(kendaraan)
+print('---mencari celcius ke fahraenheit---')
+def celciu_ke_fahrenheit(celcius):
+    fahrenheit = (celcius * 9/5) + 32
+    return fahrenheit
+
+print(celciu_ke_fahrenheit(0))
+print(celciu_ke_fahrenheit(100))
